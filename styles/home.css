@@ -7,6 +7,26 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 4em;
-    margin-left: 100px
+    margin-left: 100px;
+    margin-top: 50px;
  }
+
+.right {
+     margin-left: 100px;
+ }
+
+.left-header {
+    display: inline-block;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+}
+
+.social-tags-div {
+     display: flex;
+     float: right;
+}
 
