@@ -1,1 +1,12 @@
-/* add home page styles here */
+body {
+    width: 90%;
+}
+
+.cursive {
+    font-family: 'DynalightRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4em;
+    margin-left: 100px
+ }
+
