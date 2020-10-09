@@ -1,9 +1,12 @@
-body {
-    width: 90%;
+.center {
+    width: 1000px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
 }
 
-section {
-
+main {
+    margin-top: 50px;
 }
 
 .cursive {
@@ -19,7 +22,7 @@ section {
 
 .inline {
      display: inline-block;
-     height: 200px;
+     height: 100px;
  }
 
 .description {
@@ -30,10 +33,9 @@ section {
  }
 
  .header {
-     height: 200px;
-     border: 1px black solid;
-     width: 100%; 
-     margin-left: 40px;
+     height: 100px;
+     width: 100%;  
+     margin-top: 20px;
  }
 
 
@@ -51,5 +53,35 @@ section {
 .line {
     height: 10px;
     background-image: url('../assets/hr-img.png');
+}
+
+.print {
+    background-image: url("../assets/print-icon.png");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.date-posted {
+    display: inline-block;
+}
+
+.grey {
+    color: rgb(167, 167, 167);
+}
+
+.print-image {
+    float: right;
+}
+
+.h1 {
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+.pizza-img {
+    width: 1000px;
 }
 
