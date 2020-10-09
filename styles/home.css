@@ -2,31 +2,53 @@ body {
     width: 90%;
 }
 
+section {
+
+}
+
 .cursive {
     font-family: 'DynalightRegular';
     font-weight: normal;
     font-style: normal;
     font-size: 4em;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 40px;
  }
 
-.right {
-     margin-left: 100px;
+.inline {
+     display: inline-block;
+     height: 200px;
  }
 
-.left-header {
-    display: inline-block;
-}
+.description {
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+ }
+
+ .header {
+     height: 200px;
+     border: 1px black solid;
+     width: 100%;
+     margin-left: 40px;
+ }
+
 
 .logo {
     height: 50px;
     width: 50px;
-    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .social-tags-div {
-     display: flex;
-     float: right;
+    float: right;
+    margin-top: 50px;
+}
+
+.line {
+    background-repeat: repeat-x;
 }
 
